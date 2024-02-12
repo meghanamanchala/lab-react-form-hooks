@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}.output{
+    background-color:rgb(84, 158, 183);
+  color: white;
+  padding: 20px;
+}
+.form{
+    background-color: antiquewhite;
+    max-height: fit-content; 
+    margin: 50px;
+    width:80%;
+
+}
+input{
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+
+.form-sheet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 80px;
+    
+}
+p{
+font-size: 15px;
+padding-top: 3px;
+    color:red;
+}
+button{
+    padding: 10px;
+    margin: 20px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
